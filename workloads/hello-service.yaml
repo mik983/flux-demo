@@ -10,4 +10,4 @@ spec:
     protocol: TCP
   selector:
     app: docker-nodejs-demo
-  type: NodePort
+  type: LoadBalancer
